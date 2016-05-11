@@ -4,7 +4,8 @@
 
   angular.module('davethedev', ['ui.router', 'angular-refills']);
 
-  angular.module('davethedev').config(($stateProvider, $urlRouterProvider) => {
+  angular.module('davethedev').config(function($stateProvider, $urlRouterProvider) {
+    
     $urlRouterProvider.otherwise('/home');
 
   $stateProvider
