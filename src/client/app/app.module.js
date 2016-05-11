@@ -5,7 +5,7 @@
   angular.module('davethedev', ['ui.router', 'angular-refills']);
 
   angular.module('davethedev').config(function($stateProvider, $urlRouterProvider) {
-    
+
     $urlRouterProvider.otherwise('/home');
 
   $stateProvider
@@ -14,7 +14,7 @@
       template: '<landing></landing>'
     })
     .state('landing.full', {
-      url:'/home/full',
+      url:'/full',
       template: '<landingfull></landingfull>'
     })
     .state('portfolio', {
