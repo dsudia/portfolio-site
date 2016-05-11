@@ -7,8 +7,8 @@ body {
 }
 
 .typewriter {
-  width: 875px;
-  height: 650px;
+  width: 870px;
+  height: 750px;
   background-color: $dark-gray;
   padding: 2rem;
   margin: 5rem auto;
@@ -19,51 +19,23 @@ body {
     margin: 1rem 0 0 1rem;
     white-space: nowrap;
     overflow: hidden;
-    width: 30rem;
-    animation: type 2s steps(60, end);
+    width: 50rem;
     span {
       animation: blink 1s infinite;
     }
   }
-  .property:nth-child(2) {
+  .landing:nth-child(1) {
+    animation: type 2s steps(60, end);
+  }
+  .landing:nth-child(2) {
     animation: type2 4s steps(60, end);
   }
-  .property:nth-child(3) {
+  .landing:nth-child(3) {
     animation: type3 6s steps(60, end);
   }
-  .property:nth-child(4) {
-    animation: type4 8s steps(60, end);
-  }
-  .property:nth-child(5) {
-    animation: type5 10s steps(60, end);
-  }
-  .property:nth-child(6) {
-    width: 50rem;
-    animation: type6 13s steps(60, end);
-  }
-  p:nth-child(7) {
-    animation: type7 15s steps(60, end);
-  }
-  p:nth-child(8) {
-    animation: type8 17s steps(60, end);
-  }
-  p:nth-child(9) {
+  .landing:nth-child(4) {
     width: 2rem;
-    animation: type9 17.5s steps(3, end);
-  }
-  p:nth-child(10) {
-    animation: type10 20s steps(60, end);
-  }
-  p:nth-child(11) {
-    animation: type11 22s steps(60, end);
-  }
-  p:nth-child(12) {
-    width: 2rem;
-    animation: type12 23s steps(3, end);
-  }
-  p:nth-child(13) {
-    width: 2rem;
-    animation: type13 24s steps(3, end);
+    animation: type4 6.5s steps(4, end);
   }
   .property, .method {
     margin: 1rem 0 0 2rem;
@@ -85,67 +57,13 @@ body {
 
 @keyframes type3 {
   0%{ width: 0; }
-  66%{width: 0; }
+  60%{width: 0; }
   100%{ width: 100; }
 }
 
 @keyframes type4 {
   0%{ width: 0; }
-  75% {width: 0; }
-  100%{ width: 100; }
-}
-
-@keyframes type5 {
-  0%{ width: 0; }
-  80%{ width: 0; }
-  100%{ width: 100; }
-}
-
-@keyframes type6 {
-  0%{ width: 0; }
-  78%{ width: 0; }
-  100%{ width: 100; }
-}
-
-@keyframes type7 {
-  0%{ width: 0; }
-  88%{ width: 0; }
-  100%{ width: 100; }
-}
-
-@keyframes type8 {
-  0%{ width: 0; }
-  90%{ width: 0; }
-  100%{ width: 100; }
-}
-
-@keyframes type9 {
-  0%{ width: 0; }
-  90%{ width: 0; }
-  100%{ width: 100; }
-}
-
-@keyframes type10 {
-  0%{ width: 0; }
-  91%{ width: 0; }
-  100%{ width: 100; }
-}
-
-@keyframes type11 {
-  0%{ width: 0; }
-  92%{ width: 0; }
-  100%{ width: 100; }
-}
-
-@keyframes type12 {
-  0%{ width: 0; }
-  92%{ width: 0; }
-  100%{ width: 100; }
-}
-
-@keyframes type13 {
-  0%{ width: 0; }
-  93%{ width: 0; }
+  65% {width: 0; }
   100%{ width: 100; }
 }
 

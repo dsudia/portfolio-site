@@ -12,6 +12,10 @@
       url: '/home',
       template: '<landing></landing>'
     })
+    .state('landing.full', {
+      url:'/home/full',
+      template: '<landingfull></landingfull>'
+    })
     .state('portfolio', {
       url: '/portfolio',
       template: '<portfolio></portfolio>'
