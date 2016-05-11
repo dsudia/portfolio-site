@@ -192,6 +192,14 @@ hr {
 body {
   background-color: #1a1a1a; }
 
+.typing {
+  margin: 2rem 2rem; }
+  .typing h1 {
+    font-family: "Inconsolata"; }
+    .typing h1 span {
+      color: #ddd;
+      animation: blink 1s infinite; }
+
 .typewriter {
   width: 870px;
   height: 750px;
@@ -354,3 +362,138 @@ article.type-system-slab {
   margin: .3rem -1rem 0 0;
   font-size: 2rem;
   color: #4f98ec; }
+
+.grid-items {
+  margin: 3rem 2rem; }
+  .grid-items::after {
+    clear: both;
+    content: "";
+    display: block; }
+  .grid-items .grid-item {
+    background: #3567a0;
+    border-bottom: 9px solid #242424;
+    border-left: 4.5px solid #242424;
+    border-right: 4.5px solid #242424;
+    border-top: 0;
+    cursor: pointer;
+    float: left;
+    height: 21em;
+    outline: none;
+    overflow: hidden;
+    padding: 2em;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    width: 100%; }
+    .grid-items .grid-item .small-text {
+      font-size: .8rem; }
+    @media screen and (min-width: 900px) {
+      .grid-items .grid-item {
+        width: 33.33333%; } }
+    .grid-items .grid-item:nth-child(1) {
+      background-color: #1644A1;
+      box-shadow: inset 0 0 1px 2px #103174; }
+      .grid-items .grid-item:nth-child(1):focus, .grid-items .grid-item:nth-child(1):hover {
+        background-color: #103174;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover; }
+    .grid-items .grid-item:nth-child(2) {
+      background-color: #A1321D;
+      box-shadow: inset 0 0 1px 2px #762515; }
+      .grid-items .grid-item:nth-child(2):focus, .grid-items .grid-item:nth-child(2):hover {
+        background-color: #762515;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover; }
+    .grid-items .grid-item:nth-child(3) {
+      background-color: #D95218;
+      box-shadow: inset 0 0 1px 2px #ab4113; }
+      .grid-items .grid-item:nth-child(3):focus, .grid-items .grid-item:nth-child(3):hover {
+        background-color: #ab4113;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover; }
+    .grid-items .grid-item:nth-child(4) {
+      background-color: #30446E;
+      box-shadow: inset 0 0 1px 2px #212e4a; }
+      .grid-items .grid-item:nth-child(4):focus, .grid-items .grid-item:nth-child(4):hover {
+        background-color: #212e4a;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover; }
+    .grid-items .grid-item:nth-child(5) {
+      background-color: #08B7D4;
+      box-shadow: inset 0 0 1px 2px #068da3; }
+      .grid-items .grid-item:nth-child(5):focus, .grid-items .grid-item:nth-child(5):hover {
+        background-color: #068da3;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover; }
+    .grid-items .grid-item:nth-child(6) {
+      background-color: #1644A1;
+      box-shadow: inset 0 0 1px 2px #103174; }
+      .grid-items .grid-item:nth-child(6):focus, .grid-items .grid-item:nth-child(6):hover {
+        background-color: #103174;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover; }
+    .grid-items .grid-item:nth-child(7) {
+      background-color: #A1321D;
+      box-shadow: inset 0 0 1px 2px #762515; }
+      .grid-items .grid-item:nth-child(7):focus, .grid-items .grid-item:nth-child(7):hover {
+        background-color: #762515;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover; }
+    .grid-items .grid-item:nth-child(8) {
+      background-color: #30446E;
+      box-shadow: inset 0 0 1px 2px #212e4a; }
+      .grid-items .grid-item:nth-child(8):focus, .grid-items .grid-item:nth-child(8):hover {
+        background-color: #212e4a;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover; }
+    .grid-items .grid-item:nth-child(9) {
+      background-color: #D95218;
+      box-shadow: inset 0 0 1px 2px #ab4113; }
+      .grid-items .grid-item:nth-child(9):focus, .grid-items .grid-item:nth-child(9):hover {
+        background-color: #ab4113;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover; }
+    .grid-items .grid-item:nth-child(10) {
+      background-color: #08B7D4;
+      box-shadow: inset 0 0 1px 2px #068da3; }
+      .grid-items .grid-item:nth-child(10):focus, .grid-items .grid-item:nth-child(10):hover {
+        background-color: #068da3;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover; }
+  .grid-items .grid-item img {
+    display: block;
+    height: 7em;
+    margin: 0 auto 1em; }
+  .grid-items .grid-item h1 {
+    color: white;
+    font-size: 1.3em;
+    margin-bottom: 0.4em; }
+  .grid-items .grid-item p {
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 1.5em;
+    margin: auto; }
+    @media screen and (min-width: 600px) {
+      .grid-items .grid-item p {
+        max-width: 70%; } }
+  @media screen and (min-width: 900px) {
+    .grid-items .grid-item-big {
+      width: 66.66667%; } }
+  @media screen and (min-width: 600px) {
+    .grid-items .grid-item-big p {
+      max-width: 60%; } }
+  .grid-items .grid-item-image {
+    background: url("../../resources/imgs/fitter-screenshot.png");
+    background-color: #3567a0;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover; }
